@@ -1,0 +1,11 @@
+server:
+  port: 8090
+  dbName: test
+  
+spring:
+  data:
+    mongodb:
+      uri: localhost:27017
+      
+mongoWrite: false
+distributorProductsMappingCron: 0 0/30 7-19 * * MON-SAT
